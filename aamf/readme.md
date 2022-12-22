@@ -1,0 +1,3 @@
+- The [course](https://www.freecodecamp.org/news/learn-all-about-micro-frontends), [repo](https://github.com/jherr/micro-fes-beginner-to-expert)
+- The templates are generated using [`create-mf-app`](https://www.npmjs.com/package/create-mf-app)
+- Use [`pnpx`](https://pnpm.io/community/articles) instead of `npx`
