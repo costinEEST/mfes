@@ -2,3 +2,5 @@
 - The templates are generated using [`create-mf-app`](https://www.npmjs.com/package/create-mf-app)
 - Use [`pnpx`](https://pnpm.io/community/articles) instead of `npx`
 - [Update](https://pnpm.io/cli/update#tldr) all the dependencies to the latest version with `pnpm up --latest`
+- Micro frontends are like the organisms from [atomic design](https://atomicdesign.bradfrost.com/chapter-2/#atomic-design-is-for-user-interfaces)
+- https://webpack.js.org/concepts/module-federation
