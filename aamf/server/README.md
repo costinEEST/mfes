@@ -10,13 +10,8 @@ Scaffold the boilerplate code with `pnpx create-mf-app` and the following option
 Static files are served out of the public directory.
 
 ```
-$ curl http://localhost:8080/placeholder.txt
-$ # result -> Put your static files in this directory and then delete this file.
-```
-
-```
 $ curl http://localhost:8080/products
-$ # result -> true
+$ # result -> array of products in JSON format
 ```
 
 Trying authorized routes without a JWT will result in a 401.

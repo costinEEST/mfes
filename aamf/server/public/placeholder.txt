@@ -1,1 +1,1 @@
-Put your static files in this directory and then delete this file.
+https://github.com/jherr/micro-fes-beginner-to-expert/tree/main/server/public
