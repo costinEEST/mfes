@@ -1,6 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
+import "remixicon/fonts/remixicon.css";
 import "./index.scss";
 
 import Header from "./Header";
