@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "remixicon/fonts/remixicon.css";
 import "./index.scss";
 
-import { Footer } from "home/Footer";
+import Footer from "home/Footer";
 import SafeComponent from "./SafeComponent";
 import { Spinner } from "./Spinner";
 import PDPContent from "./PdpContent";
