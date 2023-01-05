@@ -1,4 +1,4 @@
-- Scaffold the boilerplate code with `pnpx create-mf-app` and the following options:
+Scaffold the boilerplate code with `pnpx create-mf-app` and the following options:
 
 ```bash
 ? Pick the name of your app: addtocart
