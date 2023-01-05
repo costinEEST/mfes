@@ -30,6 +30,7 @@ export default function MiniCart() {
             style={{
               width: 300,
               top: "2rem",
+              right: -20,
             }}
           >
             <div
@@ -69,7 +70,7 @@ export default function MiniCart() {
               <div className="flex-end">
                 <button
                   className="bg-green-900 text-white py-2 px-5 rounded-md text-sm"
-                  onClick={clearCart}
+                  onClick={() => {}}
                 >
                   Checkout
                 </button>

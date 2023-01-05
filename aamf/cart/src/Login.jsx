@@ -20,6 +20,7 @@ export default function Login() {
           style={{
             width: 300,
             top: "2rem",
+            right: -20,
           }}
         >
           <input
