@@ -26,7 +26,7 @@ export default function CartContent() {
         <div></div>
         <div></div>
         <div></div>
-        <div className="text-right">
+        <div className="text-right" id="grand_total">
           {currency.format(items.reduce((a, v) => a + v.quantity * v.price, 0))}
         </div>
       </div>
@@ -35,6 +35,7 @@ export default function CartContent() {
           <div className="flex-grow">
             <button
               className="bg-white border border-green-800 text-green-800 py-2 px-5 rounded-md text-sm"
+              id="clearCart"
               onClick={clearCart}
             >
               Clear Cart

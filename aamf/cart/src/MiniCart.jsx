@@ -19,7 +19,7 @@ export default function MiniCart() {
 
   return (
     <>
-      <span onClick={() => setShowCart(!showCart)}>
+      <span id="showCart" onClick={() => setShowCart(!showCart)}>
         <i className="ri-shopping-cart-2-fill text-2xl"></i>
         {items.length}
       </span>
@@ -62,6 +62,7 @@ export default function MiniCart() {
               <div className="flex-grow">
                 <button
                   className="bg-white border border-green-800 text-green-800 py-2 px-5 rounded-md text-sm"
+                  id="clearCart"
                   onClick={clearCart}
                 >
                   Clear Cart
