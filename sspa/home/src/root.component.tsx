@@ -1,3 +1,12 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <section
+      style={{
+        padding: "1rem",
+        backgroundColor: "cyan",
+      }}
+    >
+      The <i>{props.name}</i> React micro frontend is mounted!
+    </section>
+  );
 }
