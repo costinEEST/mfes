@@ -1,19 +1,11 @@
-import { registerApplication, start, LifeCycles } from "single-spa";
+import { registerApplication, start } from "single-spa";
+import type { LifeCycles } from "single-spa";
 
 registerApplication({
-  name: "@single-spa/welcome",
-  app: () =>
-    System.import<LifeCycles>(
-      "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
-    ),
+  name: "@tuco/homePage",
+  app: () => System.import<LifeCycles>("@tuco/homePage"),
   activeWhen: ["/"],
 });
-
-// registerApplication({
-//   name: "@demo/navbar",
-//   app: () => System.import("@demo/navbar"),
-//   activeWhen: ["/"]
-// });
 
 start({
   urlRerouteOnly: true,
