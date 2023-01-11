@@ -1,3 +1,7 @@
-Application vs Parcel vs Utility in a single-spa [approach](https://youtu.be/ymKzE3u3X_s?t=2366)
+Application vs Parcel vs Utility in a single-spa [approach](https://single-spa.js.org/docs/module-types)
 
 Module federation and single-spa working [together](https://single-spa.js.org/docs/videos#from-the-community)
+
+Lectures:
+
+- https://www.linkedin.com/pulse/single-spa-authentication-state-management-using-react-rolando-niub%C3%B3

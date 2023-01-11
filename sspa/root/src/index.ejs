@@ -56,7 +56,8 @@
       {
         "imports": {
           "@demo/root-config": "//localhost:9000/demo-root-config.js",
-          "@tuco/homePage": "//localhost:8500/tuco-homePage.js"
+          "@tuco/homePage": "//localhost:8500/tuco-homePage.js",
+          "@api/getProfile": "//localhost:8501/api-getProfile.js"
         }
       }
     </script>
@@ -76,10 +77,39 @@
     <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
     <% } %>
+    <style>
+      /* https://randoma11y.com/?color=cyan */
+      body {
+        background-color: hwb(216 1% 48%);
+      }
+
+      article {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: hwb(180 0% 0%);
+      }
+
+      a {
+        color: inherit;
+      }
+    </style>
   </head>
   <body>
     <noscript> You need to enable JavaScript to run this app. </noscript>
-    <main></main>
+    <main>
+      <article>
+        The entire page coloured in dark blue is mounted as a <br />
+        <a
+          href="https://single-spa.js.org/docs/getting-started-overview#create-a-root-config"
+          target="_blank"
+          rel="noopener noreferrer"
+          >root-config</a
+        >
+        named <i>@demo/root-config</i>
+      </article>
+    </main>
     <script>
       System.import("@demo/root-config");
     </script>

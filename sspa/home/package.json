@@ -1,7 +1,7 @@
 {
   "name": "@tuco/homePage",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve -- --port 8500",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently pnpm:build:*",
     "build:webpack": "webpack --mode=production",

@@ -1,4 +1,6 @@
-Scaffold the boilerplate with `pnpx create-single-spa --moduleType root-config` and the options:
+`pnpm start`
+
+Prepared the boilerplate with `pnpx create-single-spa --moduleType root-config` and the options:
 
 ```bash
 ? Directory for new project root

@@ -37,3 +37,13 @@ declare module "*.svg" {
   const src: string;
   export default src;
 }
+
+/**
+ * https://stackoverflow.com/a/66401623
+ * */
+declare module "@api/getProfile";
+
+// declare module "@api/getProfile" {
+//   const getProfile: any;
+//   export default getProfile;
+// }
