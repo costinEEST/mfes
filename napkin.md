@@ -5,3 +5,4 @@ Module federation and single-spa working [together](https://single-spa.js.org/do
 Lectures:
 
 - https://www.linkedin.com/pulse/single-spa-authentication-state-management-using-react-rolando-niub%C3%B3
+- https://dev.to/infoxicator/why-react-router-is-excellent-for-micro-frontends-2a21
